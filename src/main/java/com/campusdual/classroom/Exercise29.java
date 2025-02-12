@@ -5,7 +5,7 @@ public class Exercise29 {
     try {
       Integer.parseInt("a");
     } catch (NumberFormatException e) {
-      System.out.print("ERROR: La string no es un número");
+      e.printStackTrace();
     }
   }
 }
